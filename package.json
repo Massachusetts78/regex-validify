@@ -1,6 +1,6 @@
 {
     "name": "regex-validify",
-    "version": "3.3.4",
+    "version": "3.3.5",
     "description": "A secure and rapid tool for input validation!",
     "main": "./dist/validators/regExp.js",
     "type": "module",

@@ -255,5 +255,6 @@ git push origin feature/your-feature-name
 ```
 ## Acknowledgement
 
-Your contributions help improve this library and make regex validation easier for everyone. 🚀
-Thank you for your support! 🎉
+I sincerely appreciate every contribution, suggestion, and piece of feedback that helps make Regex-Validify better. Whether you're reporting an issue, improving the code, or simply using this tool, your support means a lot to me.
+
+Thank you for being a part of this journey! Your involvement makes a real difference, and I’m grateful for it.
