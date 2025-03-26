@@ -1,0 +1,41 @@
+{
+    "source": {
+        "include": ["src"],
+        "includePattern": ".+\\.ts$",
+        "excludePattern": "(node_modules/|docs)"
+    },
+    "plugins": [
+        "node_modules/jsdoc-babel",
+        "node_modules/better-docs/typescript"
+    ],
+    "typescript": {
+        "moduleRoot": "src"
+    },
+    "babel": {
+        "extensions": ["ts", "js"],
+        "babelrc": false,
+        "presets": [
+            ["@babel/preset-env", { "targets": { "node": true } }],
+            "@babel/preset-typescript"
+        ]
+    },
+    "opts": {
+        "encoding": "utf8",
+        "destination": "./docs",
+        "recurse": true,
+        "verbose": true,
+        "template": "node_modules/better-docs"
+    },
+    "templates": {
+        "cleverLinks": false,
+        "monospaceLinks": false,
+        "search": true,
+        "better-docs": {
+            "name": "RegExp Validator Documentation",
+            "title": "RegExp Validator Documentation",
+            "css": "style.css",
+            "trackingCode": "",
+            "hideGenerator": false
+        }
+    }
+}
